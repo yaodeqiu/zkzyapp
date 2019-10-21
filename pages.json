@@ -1,0 +1,39 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "众卡之友"
+			}
+		},
+		{
+			"path":"pages/findgoods/findgoods",
+			"style":{
+				"navigationBarTitleText":"找货"
+			}
+		},
+		{
+			"path":"pages/sendgoods/sendgoods",
+			"style":{
+				"navigationBarTitleText":"发货"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#7a7e83",
+		"selectedColor": "#0faeff",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"iconPath": "",
+			"selectedIconPath": ""
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
